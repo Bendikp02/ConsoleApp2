@@ -10,7 +10,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ASD");
+            Random rnd = new Random();
+            int kockadobas = rnd.Next(1, 7);
+            Console.WriteLine(kockadobas);
+            Console.ReadKey();
         }
     }
 }
